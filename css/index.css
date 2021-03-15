@@ -311,6 +311,13 @@ a {
     bottom: 15px;
     right: 15px;
   }
+  .book .wrap{
+	  flex-direction: column;
+	  align-items: center;
+  }
+  iframe{
+	  width: 600px;
+  }
 }
 #toggler{
 	display: none;
@@ -331,6 +338,9 @@ a {
   }
   .footer .social-media ul {
     float: left;
+  }
+  iframe{
+	  display: none;
   }
   .menu{
 	  display: none;
@@ -598,13 +608,12 @@ a {
   margin-bottom: 35px;
 }
 
-.book img {
-  float: left;
-  margin-left: 30px;
+.book .wrap{
+	display: flex;
+	justify-content: center;
 }
 
 .book form {
-  float: left;
   margin-left: 30px;
   color: #3d1101;
 }
